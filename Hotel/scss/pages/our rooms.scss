@@ -1,0 +1,73 @@
+.our-rooms-title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.our-rooms-h1 {
+    font-size: 45px;
+}
+.our-rooms-img {
+    margin-top: 20px;
+}
+
+// ---------------------------------------
+// Slider
+
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 051 css*/
+.jssorb051 .i {position:absolute;cursor:pointer;}
+.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+.jssorb051 .i:hover .b {fill-opacity:.7;}
+.jssorb051 .iav .b {fill-opacity: 1;}
+.jssorb051 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 051 css*/
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+.our-rooms-slide {
+    height: 700px !important;
+}
+// Slider
+// ---------------------------------------
+
+.super-lux {
+    position: relative;
+    left: 18% !important;
+    max-width: 64% !important;
+    width: auto;
+    background: #fff;
+    border-bottom: 3px solid black;
+    padding: 40px;
+    margin-top: 32% !important;
+    transform: none !important;
+}
+.super-lux-h1 {
+    font-size: 30px;
+}
+.super-lux-img {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.super-lux-p {
+    text-align: justify;
+    color: #333;
+}

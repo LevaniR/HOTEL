@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'BPGGuardianEgypBldExp';
+    src: url('../fonts/BPGGuardianEgypBldExp.eot');
+    src: url('../fonts/BPGGuardianEgypBldExp.eot') format('embedded-opentype'),
+         url('../fonts/BPGGuardianEgypBldExp.woff2') format('woff2'),
+         url('../fonts/BPGGuardianEgypBldExp.woff') format('woff'),
+         url('../fonts/BPGGuardianEgypBldExp.ttf') format('truetype'),
+         url('../fonts/BPGGuardianEgypBldExp.svg#BPGGuardianEgypBldExp') format('svg');
+}
+@font-face {
+    font-family: 'BPGGuardianEgypCond';
+    src: url('../fonts/BPGGuardianEgypCond.eot');
+    src: url('../fonts/BPGGuardianEgypCond.eot') format('embedded-opentype'),
+         url('../fonts/BPGGuardianEgypCond.woff2') format('woff2'),
+         url('../fonts/BPGGuardianEgypCond.woff') format('woff'),
+         url('../fonts/BPGGuardianEgypCond.ttf') format('truetype'),
+         url('../fonts/BPGGuardianEgypCond.svg#BPGGuardianEgypCond') format('svg');
+}
+@font-face {
+    font-family: 'BPGGuardianEgyp';
+    src: url('../fonts/BPGGuardianEgyp.eot');
+    src: url('../fonts/BPGGuardianEgyp.eot') format('embedded-opentype'),
+         url('../fonts/BPGGuardianEgyp.woff2') format('woff2'),
+         url('../fonts/BPGGuardianEgyp.woff') format('woff'),
+         url('../fonts/BPGGuardianEgyp.ttf') format('truetype'),
+         url('../fonts/BPGGuardianEgyp.svg#BPGGuardianEgyp') format('svg');
+}
+
+.glyphicon-a, .super-lux-p, .bar-res-p, .view-more-a, 
+.footer-p, {
+    font-family: BPGGuardianEgypCond;
+}
+.nav-list, .footer-list-a {
+    font-family: BPGGuardianEgyp;
+}
+.slide-h1, .our-rooms-h1, .super-lux-h1, .bar-res-h1, 
+.bar-res-h4, .footer-list-h2, .T-span, .services-span {
+    font-family: BPGGuardianEgypBldExp;
+}

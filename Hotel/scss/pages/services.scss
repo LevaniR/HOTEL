@@ -1,0 +1,30 @@
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.services-a {
+    width: 25%;
+    height: 500px;
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.services-a:hover {
+    opacity: 1;
+}
+.services-span {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    width: 200px;
+    text-decoration: none;
+}
+.services-img {
+    width: 100%;
+    height: 100%;
+}
