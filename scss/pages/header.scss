@@ -192,7 +192,7 @@
 }
 .slider-img {
     width: 100%;
-    height: 100%;
+    height: 800px;
 }
 .slide-title {
     display: flex;
@@ -213,3 +213,74 @@
     color: #fff;
     text-align: center;
 }
+
+// ---------------------------------------------------------------
+.mob-nav {
+    display: none;
+}
+.nav-logo{
+    width: 40%;
+    height: 60px;;
+}
+.accordion {
+    width: 100%;
+    max-width: 980px;
+    margin: 30px auto 20px;
+    background: inherit;
+    border: 3px solid #CCC;
+    border-radius: 7px;
+  }
+  
+  .accordion .link {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s ease;
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .accordion li:last-child .link { border-bottom: 0; }
+  
+
+  
+  .accordion li.open .link { color: #b63b4d; }
+  
+  .accordion li.open i { color: #b63b4d; }
+  
+  .accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  /**
+   * Submenu
+   -----------------------------*/
+  
+  
+  .submenu {
+    display: none;
+    background: #444359;
+  }
+  
+  .submenu li { border-bottom: 1px solid #4b4a5e; }
+  
+  .submenu a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #d9d9d9;
+    padding: 25px;
+    transition: all 0.25s ease;
+    font-size: 18px;
+  }
+  
+  .submenu a:hover {
+    background: #b63b4d;
+    color: #FFF;
+  }
