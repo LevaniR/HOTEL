@@ -225,9 +225,9 @@
 .accordion {
     width: 100%;
     max-width: 980px;
-    margin: 30px auto 20px;
+    margin-top: 20px;
     background: inherit;
-    border: 3px solid #CCC;
+    border: 3px solid #ffcf40;
     border-radius: 7px;
   }
   
@@ -275,7 +275,7 @@
     text-align: center;
     text-decoration: none;
     color: #d9d9d9;
-    padding: 25px;
+    padding: 15px;
     transition: all 0.25s ease;
     font-size: 18px;
   }

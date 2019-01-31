@@ -48,6 +48,9 @@
 .services-span {
     margin-left: 70px;
 }
+.services-a {
+    opacity: 0.7;
+}
 .bar-res-cont {
     display: none;
 }
@@ -64,6 +67,22 @@
 }
 .footer-p {
     font-size: 12px;
+}
+.header-up {
+    border-top: 1px solid darkgray;
+    margin-top: 10px;
+    height: 50px;
+    border-bottom: none;
+}
+.fa {
+    color: #ffcf40;
+}
+.fa:hover {
+    color: #b63b4d;
+}
+.soc-h3 {
+    color: #d9d9d9;
+    font-family: BPGGuardianEgypBldExp;
 }
 }
 
@@ -95,7 +114,7 @@
 }
 .slide-title {
     left: 17.5%;
-    top: 25%;
+    top: 22%;
 }
 .our-rooms-slide {
     height: 355px !important;
@@ -155,7 +174,7 @@
     font-size: 23px;
 }
 .slide-title {
-    left: 21.5%;
+    left: 14.5%;
 }
 .our-rooms-slide {
     height: 275px !important;
@@ -197,5 +216,11 @@
     width: 300px;
     padding-left: 8%;
     text-align: center;
+}
+.slider-img {
+    height: 480px;
+}
+.submenu a {
+    padding: 10px;
 }
 }
